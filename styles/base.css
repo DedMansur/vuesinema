@@ -7,9 +7,10 @@
 }
 
 body {
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: var(--CR);
     font-weight: 400;
     background: var(--bg);
+    color: var(--white);
 }
 
 .container {
@@ -32,4 +33,22 @@ body {
     --RR: 'RR', sans-serif;
     --MR: 'MR', sans-serif;
     --MB: 'MB', sans-serif;
+}
+
+.btn {
+    width: 166px;
+    height: 45px;
+    font-family: var(--RR);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: var(--orange);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: var(--black);
+    color: var(--white);
 }
